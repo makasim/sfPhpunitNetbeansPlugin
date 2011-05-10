@@ -10,6 +10,6 @@
 
 <phpunit
   colors="true"
-  testSuiteLoaderClass="sfPhpunitNetBeansLoader"
-  testSuiteLoaderFile="%%plugin-root-dir%%/lib/sfPhpunitNetBeansLoader.php"
+  testSuiteLoaderClass="sfPhpunitNetbeansLoader"
+  testSuiteLoaderFile="%%plugin-root-dir%%/lib/sfPhpunitNetbeansLoader.php"
 />
