@@ -9,7 +9,7 @@ include_once dirname(__FILE__).'/bootstrap.php';
  * 
  * @author     Maksim Kotlyar <mkotlar@ukr.net>
  */
-class sfPhpunitNetBeansLoader implements PHPUnit_Runner_TestSuiteLoader
+class sfPhpunitNetbeansLoader implements PHPUnit_Runner_TestSuiteLoader
 {
   public function __construct($path = null)
   {
@@ -18,9 +18,9 @@ class sfPhpunitNetBeansLoader implements PHPUnit_Runner_TestSuiteLoader
 
   public function load($suiteClassName, $suiteClassFile = '')
   {
-    sfPhpunitNetBeansSuite::$path = $this->_path;
+    sfPhpunitNetbeansSuite::$path = $this->_path;
 
-    return new ReflectionClass('sfPhpunitNetBeansSuite');
+    return new ReflectionClass('sfPhpunitNetbeansSuite');
   }
 
   public function  reload(ReflectionClass $aClass)

@@ -7,7 +7,7 @@
  * 
  * @author     Maksim Kotlyar <mkotlar@ukr.net>
  */
-class sfPhpunitNetBeansSuite extends PHPUnit_Framework_TestSuite
+class sfPhpunitNetbeansSuite extends PHPUnit_Framework_TestSuite
 {
   public static $path;
 
